@@ -11,6 +11,8 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
       <title>Rezolve Digital</title>
+      <meta name="description" content="Elevate your music with stunning visuals. Specializing in captivating designs, visualizers, videos, logos, web, and digital solutions for the music industry"/>
+      <meta name="keywords" content="Rezolve Digital, Music design agency, Digital solutions for music, Visualizer, Graphic Designer, Visual Design, Music, Digital Design, Motion Graphics, Animation">
   </head>
 
   <body>
@@ -33,7 +35,7 @@
     </nav>
 
     <section class="introduction-section">
-      <div class="introduction-visualbackground"></div>
+      <video autoplay muted loop playsinline class="introduction-visualbackground" src="img/homepage/intro-visual-background.mp4"></video>
       <div class="intro-heading">
         <h1>ELEVATE YOUR MUSIC <br>WITH <span>STUNNING</span><br> VISUALS</h1>
         <div class="only-web"><img src="img/logo/dot_logo.svg" alt="Rezolve Digital Logo Symbol"></div>
@@ -43,22 +45,24 @@
     <section class="ourservice-section">
       <div class="ourservice-background"></div>
       <div class="ourservice-header">
-        <h2>Graphic design? Visualizer? Music Video? Logo? Web Design?</h2>
-        <h3>We've Got You <span>Covered</span></h3>
-        <div class="intro-video-container">
-          <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2 class="animate">Graphic design? Visualizer? Music Video? Logo? Web Design?</h2>
+        <h3 class="animate">We've Got You <span>Covered</span></h3>
+        <div class="animate intro-video-container">
+          <video class="animate" autoplay muted loop playsinline>
+            <source src="img/homepage/rezolvedigital-logoanimation-short.mp4" type="video/mp4">
+          <!-- <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
       </div>
-      <a class="ourwork-button" href="ourwork.html">Our Work</a>
+      <a class="animate ourwork-button" href="ourwork.html">Our Work</a>
     </section>
 
     <section class="index-contact-section">
-        <h2>Our digital design solutions brings <span>your brand</span> to life.</h2>
-        <h3>We'll work with you every step of the way</h3>
-      <a class="contact-button" href="contact.html">contact<img src="img/icons/mail.png" width="512" height="512" alt="email icon"></a>
+        <h2 class="animate">Our digital design solutions brings <span>your brand</span> to life.</h2>
+        <h3 class="animate">We'll work with you every step of the way</h3>
+      <a class="animate contact-button" href="contact.html">contact<img src="img/icons/mail.png" width="512" height="512" alt="email icon"></a>
     </section>
 
-    <section class="ourwork-some-section">
+    <section class="animate ourwork-some-section">
       <h3>Find us on Social media</h3>
       <div class="some-icons">
         <a href="https://www.instagram.com/rezolvedigital" target=”_blank”><img src="img/icons/instagram-icon.png" width="245" height="258" alt="Instagram icon"></a>
@@ -67,27 +71,8 @@
       </div>
       <h4>We would love to hear from you!</h4>
       <p><span>Contact</span> us today and let's bring your creative vision to life.</p>
-  </section>
-    
-        
-        <!-- <div class="dark-side">
-          <a class="glitch" data-glitch="Explore">elevate your music with stunning visuals</a>
-          </div>
-        
-        <svg>
-          <filter id='noiseFilter'>
-            <feTurbulence 
-              type='fractalNoise' 
-              baseFrequency='0.6'
-              seed="1"
-              stitchTiles='stitch'/>
-          </filter>
-        </svg> -->
+    </section>
 
-      <!-- <section class="intro-section">
-      </section> -->
-
-
-      <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script> <script src="js/main.js"></script>  -->
+    <script src="js/main.js"></script>
   </body>
 </html>
